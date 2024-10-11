@@ -1,0 +1,58 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+    line-height: 1.75em;
+    background-color: lemonchiffon;
+}
+
+h1, h2, #info { text-align: center; }
+
+h1 {
+    font-family: bold 1.5em "Mako One",Georgia, serif;
+    color: olive;
+    text-shadow: .05em .05em .1em lightslategray;
+}
+
+h2 {
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 5em;
+    color: olive;
+}
+
+h2 + p {
+    text-align: center;
+    font-style: italic;
+}
+
+dt {
+    font-weight: bold;
+    color: sienna;
+}
+
+dt strong {
+    font-style: italic;
+    color: tomato;
+}
+
+#info p { 
+    font-style: italic;
+    color: gray;
+}
+
+.price {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: silver;
+}
+
+.label {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-style: normal;
+}
+
+p.warning, sup {
+    font-size: small;
+    color: red;
+}

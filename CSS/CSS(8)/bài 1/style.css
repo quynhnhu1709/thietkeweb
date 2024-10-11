@@ -1,0 +1,25 @@
+* {color: red;}
+
+h2 {color: red;}
+
+.greencolor { color: green; }
+
+/*#yellowcolor { color: yellow; }*/
+
+[class] { color: violet; }
+
+/*h3, p, #yellowcolor { color: blue; }*/
+
+li em { color: aquamarine; }
+
+h1 em, h2 em, h3 em { color: aquamarine; }
+
+li h3 em { color: aqua; }
+
+p>em { color: aquamarine; }
+
+ul+h2 { color: aqua; }
+
+ul ~ h2 { color: silver; }
+
+p.violetcolor { color: plum; }

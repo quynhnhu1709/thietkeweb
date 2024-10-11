@@ -1,0 +1,68 @@
+h1 {
+    font-size: 30px;
+    line-height: 1.1em;
+}
+
+body {
+    width: 500px;
+    border: 1px solid red;
+}
+
+div {
+    font-size: 15px;
+    margin-left: 50px;
+    border: 1px solid aqua;
+}
+
+.div1 { line-height: 1.1; }
+.div2 { line-height: 1.1em; }
+.div3 { line-height: 110%; }
+
+p#doan1 { 
+    text-indent: 2em;
+    text-align: center;
+ }
+p#doan2 {
+     text-indent: 25%;
+     text-align: left;
+    }
+p#doan3 { 
+    text-indent: -35px;
+    text-align: right;
+ }
+
+a {
+     text-decoration: none;
+     text-transform: uppercase;
+    }
+
+.vd1 {
+        color: rgb(14, 231, 159);
+        text-shadow: -.3em -.3em .03em silver;
+    }
+.vd2 {
+        color: rgb(14, 231, 159);
+        text-shadow: -.7em -.5em .2em silver,
+                    .2em .2em .1em gray;
+    }
+.vd3 {
+        color: #ba9eba;
+    
+        text-shadow:
+    
+          -.05em -.05em .05em white,
+    
+          .03em .03em .05em purple;
+    }
+.vd4 {
+    color: #ba9eba;
+
+    text-shadow:
+
+      -.05em -.05em .05em purple,
+
+     .03em .03em .05em white;
+}
+.vd5 {
+    text-shadow: 0 0 .7em purple;
+}
